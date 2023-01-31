@@ -1,0 +1,219 @@
+body {
+    margin:0;
+    font-family: "Helvetica";
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5885AF;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #C3E0E5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #141484;
+}
+
+.header {
+    margin-top: 1%;
+    text-align: center;
+    color: #141484;
+}
+
+img.imgheader {
+    margin-top: auto;
+    width: 100%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    outline-width: 5px;
+}
+
+img.logo2 {
+    margin-top: 2.5%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.musicvideo {
+    margin-top: 2.5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: #141484 solid 3px;
+}
+
+.historyheading {
+    text-align: center;
+    font-family: arial;
+    color: #141484;
+}
+
+.history {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-family: arial;
+    color: black;
+}
+
+.socials {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+}
+
+.navlogo {
+  width: 254px;
+  height: 37px;
+  overflow: hidden;
+  position: absolute;
+  left: 43%;
+  right: 43%;
+  margin-top: 0.4%;
+  display: block;
+}
+
+.center {
+  margin: auto;
+}
+
+.container {
+  margin-top: 1%;
+  padding: 20px 40px 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p_image {
+      width: 250px;
+      margin: 30px 30px 30px 0;
+      float: left;
+}
+.p_text {
+  display: inline;
+  text-align: left;
+}
+
+.r_image {
+  width: 250px;
+  margin: 30px 30px 30px 0;
+  float: right;
+}
+
+.r_text {
+  display: inline;
+}
+
+.concertbg {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+/* CONCERT TABLE */
+table.concerttable {
+  margin-top: 30px;
+  font-family: "Helvetica";
+  opacity: 0.75;
+  width: 50%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.concerttable td, table.concerttable th {
+  padding: 10px 3px;
+}
+table.concerttable tbody td {
+  font-size: 13px;
+  color: #FFFFFF;
+}
+table.concerttable thead th {
+  font-size: 20px;
+  text-decoration:underline;
+  color: #FFFFFF;
+}
+table.concerttable tfoot td {
+  font-size: 14px;
+}
+table.concerttable tfoot .links {
+  text-align: right;
+}
+table.concerttable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.myButton {
+  background-color: #141484;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Helvetica";
+  font-size: 13px;
+  padding: 4px 6px;
+  text-decoration: none;
+  color: white;
+}
+.myButton:hover {
+  background-color: #1a67d3;
+}
+
+/* Socials */
+.navsocials {
+  font-family: "Helvetica";
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  opacity: 0.75;
+  font-style: italic;
+}
+
+.socialicon {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 30px; 
+
+}
+
+#images{
+ text-align:center;
+ opacity: 0.75;
+}
+
+
+/* footer */
+footer {
+
+  overflow: hidden;
+  font-size: 7px;
+}
+
+
